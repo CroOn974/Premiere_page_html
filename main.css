@@ -6,19 +6,26 @@
 header{
     background-color: gray;
     padding: 1em 0;
-}
-
-header h1{
     color: white;
     text-align: center;
+    font-size: 1.5em;
 }
 
 section, article{
     margin: 1em 0 0 1em;
 }
 
+h2{
+    font-size: 2em;
+}
+
 h3{
     margin: 0.5em 0 0.5em 0;
+    color: brown;
+}
+
+p{
+    margin-left: 1em;
 }
 
 section img{
