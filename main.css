@@ -1,0 +1,19 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+nav{
+    background-color: gray;
+    padding: 1em 0;
+}
+
+nav h1{
+    color: white;
+    text-align: center;
+}
+
+section{
+    padding: 1em 0 0 1em;
+}
+
