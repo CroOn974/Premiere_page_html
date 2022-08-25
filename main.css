@@ -35,12 +35,12 @@ section img{
 /*mon parcours*/
 
 ul{
-    list-style: none;
+    margin-left: 1em;
 }
 
 ul li{
     
-    margin-left: 1em;
+    margin-left: 2em;
     margin-bottom: 0.2em;
 }
 
@@ -56,4 +56,18 @@ ul li{
 .img_desc p{
     margin-top: 2em;
     padding-left: 2em;
+}
+
+/*quand la largeur de la page pas en dessous de 750 px le css suivant est pris en compte*/
+@media screen and (max-width: 750px)
+{
+    .img_desc{
+        display: block;
+        text-align: center;
+    }
+
+    img{
+        padding-top: 1em;
+    }
+ 
 }
