@@ -3,24 +3,36 @@
     padding: 0 0 0 0;
 }
 
-nav{
+header{
     background-color: gray;
     padding: 1em 0;
 }
 
-nav h1{
+header h1{
     color: white;
     text-align: center;
 }
 
-section{
-    padding: 1em 0 0 1em;
+section, article{
+    margin: 1em 0 0 1em;
 }
 
-section p{
-    padding: 0.5em 0.5em 0 0;
+h3{
+    margin: 0.5em 0 0.5em 0;
 }
 
 section img{
-    padding: 0.5em;
+    margin: 0.5em;
+}
+
+/*mon parcours*/
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    
+    margin-left: 1em;
+    margin-bottom: 0.2em;
 }
