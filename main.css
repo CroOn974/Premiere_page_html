@@ -36,3 +36,17 @@ ul li{
     margin-left: 1em;
     margin-bottom: 0.2em;
 }
+
+/*Qui suis-je*/
+.img_desc{
+    display: flex; /*Ce standard permet d'avoir un design adaptatif à l'écran. Les éléments peuvent être réagencés selon la taille de l'écran*/
+}
+
+.img_desc img{
+    width: 300px;
+}
+
+.img_desc p{
+    margin-top: 2em;
+    padding-left: 2em;
+}
