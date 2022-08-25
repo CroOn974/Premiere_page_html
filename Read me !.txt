@@ -1,0 +1,1 @@
+Ce projet est un exercice ayant pour but d'apprend a crée un site en HTML et CSS
